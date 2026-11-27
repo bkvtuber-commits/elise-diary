@@ -1,0 +1,21 @@
+:root{--bg:#f7f2ec;--card:#fffdf9;--ink:#2b2420;--quiet:#7a6e66;--line:#e6ddd3;--accent:#7a3e5c}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1917;--card:#25211e;--ink:#ece6df;--quiet:#a89e95;
+--line:#3a332e;--accent:#d59ab8}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);
+font:17px/1.6 Georgia,"Iowan Old Style","Palatino Linotype",serif}
+main{max-width:720px;margin:0 auto;padding:28px 20px 60px}
+header{display:flex;gap:18px;align-items:center;margin-bottom:22px}
+header img{width:96px;height:96px;border-radius:50%;object-fit:cover;border:2px solid var(--line)}
+h1{font-size:30px;margin:0;font-weight:600;letter-spacing:.01em}
+h1 a{color:inherit;text-decoration:none}
+.intro{color:var(--quiet);margin:4px 0 0}
+h2{font-size:19px;margin:34px 0 12px;font-weight:600;border-bottom:1px solid var(--line);padding-bottom:4px}
+article{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:16px 0}
+article h3{margin:0 0 2px;font-size:21px;font-weight:600}
+.meta{color:var(--quiet);font-size:14px;margin-bottom:10px;font-family:system-ui,sans-serif}
+.poem{white-space:pre-line;font-style:italic;margin-left:1.2em}
+.sources{font-size:14px;color:var(--quiet);font-family:system-ui,sans-serif;margin-top:12px}
+.sources a,a{color:var(--accent)}
+ul.hobbies,ul.days{padding-left:1.2em}ul.hobbies li,ul.days li{margin:4px 0}
+.small{font-size:14px;color:var(--quiet);font-family:system-ui,sans-serif}
+footer{margin-top:40px;font-size:13px;color:var(--quiet);font-family:system-ui,sans-serif}
